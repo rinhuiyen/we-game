@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0b0d" />
+    <title>WeGame — Offline</title>
+    <style>
+      *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;color:#f5f7fa;background:radial-gradient(circle at 50% 20%,#4b2a16,#08090b 62%);font:16px/1.6 system-ui,sans-serif}
+      main{width:min(560px,100%);padding:42px;border:1px solid #34363d;border-radius:14px;background:rgba(12,13,16,.88);text-align:center}span{color:#ffab2e;font-weight:800;letter-spacing:.2em}h1{margin:12px 0;font-size:clamp(36px,8vw,64px);line-height:1}p{color:#b7bac1}button{margin-top:14px;padding:13px 22px;border:0;border-radius:5px;background:#ffab2e;color:#111;font-weight:700;cursor:pointer}
+    </style>
+  </head>
+  <body>
+    <main>
+      <span>WEGAME</span>
+      <h1>You’re offline</h1>
+      <p>The network wandered off mid-match. Reconnect and try again.</p>
+      <button onclick="location.reload()">Try again</button>
+    </main>
+  </body>
+</html>
